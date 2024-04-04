@@ -252,7 +252,7 @@ The application allows users to register and create new accounts at any time.
 
 ### Authorization
 
-Only logged in users can manipulate Stuff documents (but any registered user can manipulate any Stuff document, even if they weren't the user that created it.)
+Only logged in users can manipulate Contacts documents (but any registered user can manipulate any Contact document, even if they weren't the user that created it.)
 
 ### Configuration
 
