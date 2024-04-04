@@ -172,23 +172,23 @@ Once you log in (either to an existing account or by creating a new one), the na
 
 <img src="doc/non-admin.png">
 
-You can now add new Stuff documents, and list the Stuff you have created. Note you cannot see any Stuff created by other users.
+You can now add new contacts, and list contacts you have created. Note you cannot see any contacts created by other users.
 
-#### Add Stuff page
+#### Add Contact page
 
-After logging in, here is the page that allows you to add new Stuff:
+After logging in, here is the page that allows you to add new contact:
 
 <img src="doc/add-contact.png">
 
-#### List Stuff page
+#### List Contact page
 
-After logging in, here is the page that allows you to list all the Stuff you have created:
+After logging in, here is the page that allows you to list all the contacts you have created:
 
 <img src="doc/list-contacts.png">
 
-You click the "Edit" link to go to the Edit Stuff page, shown next.
+You click the "Edit" link to go to the Edit contacts page, shown next.
 
-#### Edit Stuff page
+#### Edit Contact page
 
 After clicking on the "Edit" link associated with an item, this page displays that allows you to change and save it:
 
@@ -200,9 +200,9 @@ You can define an "admin" user in the settings.json file. This user, after loggi
 
 <img src="doc/admin.png">
 
-#### Admin page (list all users stuff)
+#### Admin page (list all users contacts)
 
-To provide a simple example of a "super power" for Admin users, the Admin page lists all of the Stuff by all of the users:
+To provide a simple example of a "super power" for Admin users, the Admin page lists all of the contacts by all of the users:
 
 <img src="doc/admin-list.png">
 
@@ -210,9 +210,9 @@ Note that non-admin users cannot get to this page, even if they type in the URL 
 
 ### Collections
 
-The application implements a single Collection called "Stuffs". Each Stuffs document has the following fields: name, quantity, condition, and username.
+The application implements a single Collection called "Contacts". Each contact document has the following fields: first name, last name, address, image, and description
 
-The Stuffs collection is defined in [imports/api/stuff/stuff.js](https://github.com/ics-software-engineering/meteor-application-template-react/blob/main/app/imports/api/stuff/stuff.js).
+The contacts collection is defined in [imports/api/stuff/stuff.js](https://github.com/ics-software-engineering/meteor-application-template-react/blob/main/app/imports/api/stuff/stuff.js).
 
 The Stuffs collection is initialized in [imports/startup/server/Mongo.js](https://github.com/ics-software-engineering/meteor-application-template-react/blob/main/app/imports/startup/server/Mongo.js).
 
